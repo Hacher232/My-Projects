@@ -8,10 +8,7 @@ if not player then
 	return 
 end
 
-
-if not player.Character then 
-	player.CharacterAdded:Wait()
-end
+local function giveTool(character)
 
 local fkcube = Instance.new("Part")
 fkcube.Name = "fakecube"
